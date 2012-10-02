@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Holograham.Sherlock" parent="Theme.Sherlock" />
+    <style name="Theme.Holograham.Sherlock.Light" parent="Theme.Sherlock.Light" />
+    <style name="Theme.Holograham.Sherlock.Light.DarkActionBar" parent="Theme.Sherlock.Light.DarkActionBar" />
+    <style name="Theme.Holograham.Sherlock.NoActionBar" parent="Theme.Sherlock.NoActionBar" />
+    <style name="Theme.Holograham.Sherlock.Light.NoActionBar" parent="Theme.Sherlock.Light.NoActionBar" />
+    <style name="Theme.Holograham.Sherlock.ForceOverflow" parent="Theme.Sherlock.ForceOverflow" />
+    <style name="Theme.Holograham.Sherlock.Light.ForceOverflow" parent="Theme.Sherlock.Light.ForceOverflow" />
+    <style name="Theme.Holograham.Sherlock.Light.DarkActionBar.ForceOverflow" parent="Theme.Sherlock.Light.DarkActionBar.ForceOverflow" />
+    <style name="Theme.Holograham.Sherlock.Dialog" parent="Theme.Sherlock.Dialog" />
+    <style name="Theme.Holograham.Sherlock.Light.Dialog" parent="Theme.Sherlock.Light.Dialog" />
+    <style name="Theme.Holograham.Sherlock.Light.Dialog" parent="Theme.Sherlock.Light.Dialog" />
+</resources> 

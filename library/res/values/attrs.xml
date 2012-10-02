@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Formatting note: terminate all comments with a period, to avoid breaking
+     the documentation output. To suppress comment lines from the documentation
+     output, insert an eat-comment element after the comment lines.
+-->
+
+<resources>
+    <!-- These are the standard attributes that make up a complete theme. -->
+    <declare-styleable name="HolograhamTheme">
+        <!-- =========== -->
+        <!-- Text styles -->
+        <!-- =========== -->
+        <eat-comment />
+
+        <!-- Default appearance of text: color, typeface, size, and style. -->
+        <attr name="textAppearance" format="reference" />
+        <!-- Default appearance of text against an inverted background:
+             color, typeface, size, and style. -->
+        <attr name="textAppearanceInverse" format="reference" />
+
+        <!-- Secondary text color. -->
+        <attr name="textColorSecondary" format="reference|color" />
+        <!-- Tertiary text color. -->
+        <attr name="textColorTertiary" format="reference|color" />
+
+        <!-- Secondary inverse text color, useful for inverted backgrounds. -->
+        <attr name="textColorSecondaryInverse" format="reference|color" />
+        <!-- Tertiary inverse text color, useful for inverted backgrounds. -->
+        <attr name="textColorTertiaryInverse" format="reference|color" />
+
+        <!-- Inverse hint text color. -->
+        <attr name="textColorHintInverse" format="reference|color" />
+
+
+        <!-- Bright inverse text color. Only differentiates based on the disabled state. -->
+        <attr name="textColorPrimaryInverseDisableOnly" format="reference|color" />
+
+        <!-- Bright text color. This does not differentiate the disabled state. As an example,
+             buttons use this since they display the disabled state via the background and not the
+             foreground text color. -->
+        <attr name="textColorPrimaryNoDisable" format="reference|color" />
+        <!-- Dim text color. This does not differentiate the disabled state. -->
+        <attr name="textColorSecondaryNoDisable" format="reference|color" />
+
+        <!-- Bright inverse text color. This does not differentiate the disabled state. -->
+        <attr name="textColorPrimaryInverseNoDisable" format="reference|color" />
+        <!-- Dim inverse text color. This does not differentiate the disabled state. -->
+        <attr name="textColorSecondaryInverseNoDisable" format="reference|color" />
+
+        <!-- Text color for urls in search suggestions, used by things like global search and the browser. @hide -->
+        <attr name="textColorSearchUrl" format="reference|color" />
+
+        <!-- Color of highlighted text, when used in a light theme. -->
+        <attr name="textColorHighlightInverse" format="reference|color" />
+        <!-- Color of link text (URLs), when used in a light theme. -->
+        <attr name="textColorLinkInverse" format="reference|color" />
+
+        <!-- Color of list item text in alert dialogs. -->
+        <attr name="textColorAlertDialogListItem" format="reference|color" />
+    </declare-styleable>
+
+    <!-- **************************************************************** -->
+    <!-- Other non-theme attributes. -->
+    <!-- **************************************************************** -->
+    <eat-comment />
+
+    <!-- Size of text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp).
+         Supported values include the following:<p/>
+    <ul>
+        <li><b>px</b> Pixels</li>
+        <li><b>sp</b> Scaled pixels (scaled to relative pixel size on screen). See {@link android.util.DisplayMetrics} for more information.</li>
+        <li><b>pt</b> Points</li>
+        <li><b>dip</b> Device independent pixels. See {@link android.util.DisplayMetrics} for more information.</li>
+    </ul>
+        -->
+	<!-- Color of highlighted text. -->
+    <attr name="textColorHighlight" format="reference|color" />
+
+    <!-- Color of hint text (displayed when the field is empty). -->
+    <attr name="textColorHint" format="reference|color" />
+
+    <!-- Color of link text (URLs). -->
+    <attr name="textColorLink" format="reference|color" />
+
+</resources>

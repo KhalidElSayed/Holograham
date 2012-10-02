@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+	<!-- Base style for Holograham. -->
+	<style name="Holograham" />
+
+    <!-- Text Styles -->
+    <style name="Holograham.TextAppearance" parent="Holograham.TextAppearance">
+    	<item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHighlight">?textColorHighlight</item>
+        <item name="android:textColorHint">?textColorHint</item>
+        <item name="android:textColorLink">?textColorLink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Large">
+    	<item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Medium">
+    	<item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Small" parent="Holograham.TextAppearance.Small">
+    	<item name="android:textSize">14sp</item>
+        <item name="android:textColor">?textColorSecondary</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Large.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Medium.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Small.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHint">?textColorHint</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.SearchResult.Title">
+         <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?textColorSecondary</item>
+    </style>
+
+	<style name="Holograham.TextAppearance.Widget" />
+
+    <style name="Holograham.TextAppearance.Widget.Button" parent="Holograham.TextAppearance.Small.Inverse">
+        <item name="android:textColor">@color/primary_text_nodisable_holo_light</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.IconMenu.Item" parent="Holograham.TextAppearance.Small">
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+
+    <!-- This style is for smaller screens; values-xlarge defines a version
+         for larger screens. -->
+    <style name="Holograham.TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tab_indicator_text</item>
+    </style>
+    
+    <style name="Holograham.TextAppearance.Widget.TextView">
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?textColorHint</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.TextView.PopupMenu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?textColorHint</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.DropDownHint">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.DropDownItem">
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.EditText">
+        <item name="android:textColor">@color/bright_foreground_light</item>
+        <item name="android:textColorHint">@color/hint_foreground_holo_light</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.PopupMenu">
+    	<item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHint">@color/hint_foreground_light</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_light</item>
+        <item name="android:textColorLink">@color/link_text_light</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.PopupMenu.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.PopupMenu.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Widget.Switch" parent="Holograham.TextAppearance.Small">
+    </style>
+
+    <style name="Holograham.TextAppearance.WindowTitle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <!-- Light text styles -->
+    <style name="Holograham.TextAppearance.Light" parent="Holograham.TextAppearance">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Large" parent="Holograham.TextAppearance.Large">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Medium" parent="Holograham.TextAppearance.Medium">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Small" parent="Holograham.TextAppearance.Small">
+    </style>
+ 
+   <style name="Holograham.TextAppearance.Light.Large.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Medium.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Small.Inverse">
+        <item name="android:textColor">?textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?textColorHintInverse</item>
+        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
+        <item name="android:textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.SearchResult" parent="Holograham.TextAppearance.SearchResult">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColorHint">?textColorHint</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?textColorSecondary</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.Button">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.EditText">
+        <item name="android:textColor">@color/bright_foreground_dark</item>
+        <item name="android:textColorHint">@color/hint_foreground_holo_dark</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.PopupMenu" parent="Holograham.TextAppearance.Widget.PopupMenu">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.PopupMenu.Large" parent="Holograham.TextAppearance.Widget.PopupMenu.Large">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.PopupMenu.Small" parent="Holograham.TextAppearance.Widget.PopupMenu.Small">
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.Widget.DropDownHint" parent="Holograham.TextAppearance.Widget.DropDownHint">
+    </style>
+	
+	<style name="Holograham.TextAppearance.Light.WindowTitle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Holograham.TextAppearance.Light.DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+
+</resources>
