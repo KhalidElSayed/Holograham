@@ -322,5 +322,46 @@
         <item name="android:background">@null</item>
         <item name="android:dividerPadding">0dp</item>
     </style>
-    
+
+    <style name="Holograham.Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textSelectHandleLeft">?android:attr/textSelectHandleLeft</item>
+        <item name="android:textSelectHandleRight">?android:attr/textSelectHandleRight</item>
+        <item name="android:textSelectHandle">?android:attr/textSelectHandle</item>
+        <item name="android:textEditPasteWindowLayout">?android:attr/textEditPasteWindowLayout</item>
+        <item name="android:textEditNoPasteWindowLayout">?android:attr/textEditNoPasteWindowLayout</item>
+        <item name="android:textEditSidePasteWindowLayout">?android:attr/textEditSidePasteWindowLayout</item>
+        <item name="android:textEditSideNoPasteWindowLayout">?android:attr/textEditSideNoPasteWindowLayout</item>
+        <item name="android:textEditSuggestionItemLayout">?android:attr/textEditSuggestionItemLayout</item>
+        <item name="android:textCursorDrawable">?android:attr/textCursorDrawable</item>
+    </style>
+
+    <style name="Holograham.Widget.TextView.ListSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:background">@drawable/list_section_divider_holo_dark</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+	<!-- TODO not sure if these two are used -->
+    <style name="Holograham.Widget.TextSelectHandle">
+    	<!-- Inherited from parent -->
+    	<!-- TODO Private resource, defer import until we know if it's used in theme
+    	<item name="android:popupAnimationStyle">@android:style/Animation.TextSelectHandle</item>
+    	 -->
+    </style>
+
+    <style name="Holograham.Widget.TextSuggestionsPopupWindow">
+    	<!--  TODO defer importing these deps until we know if it's used in theme
+    	<item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:popupBackground">@android:drawable/text_edit_suggestions_window</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+         -->
+    </style>
+
 </resources>
