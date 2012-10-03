@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+	<!-- TODO v11
+    <style name="Holograham.Widget.StackView">
+        <item name="android:resOutColor">@color/holo_blue_light</item>
+        <item name="android:clickColor">@color/holo_blue_light</item>
+    </style>
+    
+    <style name="Widget.Holo.CalendarView" parent="Widget.CalendarView">
+        <item name="android:selectedWeekBackgroundColor">#330099FF</item>
+        <item name="android:focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="android:unfocusedMonthDateColor">#66FFFFFF</item>
+        <item name="android:weekNumberColor">#33FFFFFF</item>
+        <item name="android:weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="android:selectedDateVerticalBar">@android:drawable/day_picker_week_view_dayline_holo</item>
+        <item name="android:weekDayTextAppearance">@android:style/TextAppearance.Holo.CalendarViewWeekDayView</item>
+    </style>
+    
+    <style name="Widget.Holo.NumberPicker" parent="Widget.NumberPicker">
+        <item name="android:internalLayout">@android:layout/number_picker_with_selector_wheel</item>
+        <item name="android:solidColor">@android:color/transparent</item>
+        <item name="android:selectionDivider">@android:drawable/numberpicker_selection_divider</item>
+        <item name="android:selectionDividerHeight">2dip</item>
+        <item name="android:selectionDividersDistance">48dip</item>
+        <item name="android:internalMinWidth">64dip</item>
+        <item name="android:internalMaxHeight">180dip</item>
+        <item name="virtualButtonPressedDrawable">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Widget.Holo.TimePicker" parent="Widget.TimePicker">
+        <item name="android:internalLayout">@android:layout/time_picker_holo</item>
+    </style>
+
+    <style name="Widget.Holo.DatePicker" parent="Widget.DatePicker">
+        <item name="android:internalLayout">@android:layout/date_picker_holo</item>
+        <item name="android:calendarViewShown">true</item>
+    </style>
+   	-->
+</resources>
