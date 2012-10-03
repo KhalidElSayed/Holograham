@@ -28,7 +28,17 @@
         <item name="android:textColor">?android:attr/editTextColor</item>
         <item name="android:gravity">center_vertical</item>
     </style>
-    
+
+    <style name="BaseHoloGraham.Widget.ProgressBar">
+    	<item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
     <!-- Base style for Holograham. -->
     <style name="Holograham" />
 
@@ -484,5 +494,46 @@
     </style>
 
     <style name="Holograham.Widget.ListView.White">
+    </style>
+
+    <style name="Widget.Holo.PopupWindow" parent="Widget.PopupWindow">
+    </style>
+
+    <style name="Widget.Holo.PopupWindow.ActionMode">
+        <item name="android:popupBackground">@android:color/black</item>
+        <!-- TODO Animation
+        <item name="android:popupAnimationStyle">@android:style/Animation.PopupWindow.ActionMode</item>
+         -->
+    </style>
+
+    <style name="Widget.Holo.ProgressBar" parent="BaseHoloGraham.Widget.ProgressBar"">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Horizontal" parent="Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Small" parent="Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@android:drawable/progress_small_holo</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Small.Title">
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Large" parent="Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@android:drawable/progress_large_holo</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Inverse">
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Small.Inverse">
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Large.Inverse">
     </style>
 </resources>
