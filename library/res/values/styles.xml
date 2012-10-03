@@ -14,12 +14,27 @@
      limitations under the License.
 -->
 <resources>
-	<!-- Base style for Holograham. -->
-	<style name="Holograham" />
+    <style name="BaseHoloGraham.Widget.AbsListView" parent="Holograham.Widget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    
+    <style name="BaseHoloGraham.Widget.EditText" parent="Holograham.Widget">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:attr/editTextBackground</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:attr/editTextColor</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <!-- Base style for Holograham. -->
+    <style name="Holograham" />
 
     <!-- Text Styles -->
     <style name="Holograham.TextAppearance" parent="Holograham.TextAppearance">
-    	<item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
         <item name="android:textColorHint">?android:attr/textColorHint</item>
         <item name="android:textColorLink">?android:attr/textColorLink</item>
@@ -35,15 +50,15 @@
     </style>
 
     <style name="Holograham.TextAppearance.Large">
-    	<item name="android:textSize">22sp</item>
+        <item name="android:textSize">22sp</item>
     </style>
 
     <style name="Holograham.TextAppearance.Medium">
-    	<item name="android:textSize">18sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="Holograham.TextAppearance.Small" parent="Holograham.TextAppearance.Small">
-    	<item name="android:textSize">14sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
@@ -83,7 +98,7 @@
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
-	<style name="Holograham.TextAppearance.Widget" />
+    <style name="Holograham.TextAppearance.Widget" />
 
     <style name="Holograham.TextAppearance.Widget.Button" parent="Holograham.TextAppearance.Small.Inverse">
         <item name="android:textColor">@color/primary_text_nodisable_holo_light</item>
@@ -131,7 +146,7 @@
     </style>
 
     <style name="Holograham.TextAppearance.Widget.PopupMenu">
-    	<item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textColorHint">@color/hint_foreground_light</item>
         <item name="android:textColorHighlight">@color/highlighted_text_light</item>
         <item name="android:textColorLink">@color/link_text_light</item>
@@ -236,8 +251,8 @@
 
     <style name="Holograham.TextAppearance.Light.Widget.DropDownHint" parent="Holograham.TextAppearance.Widget.DropDownHint">
     </style>
-	
-	<style name="Holograham.TextAppearance.Light.WindowTitle">
+    
+    <style name="Holograham.TextAppearance.Light.WindowTitle">
         <item name="android:textColor">#fff</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
@@ -251,7 +266,7 @@
     <!-- Widget Styles -->
 
     <style name="Holograham.Widget">
-    	<item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
     </style>
 
     <style name="Holograham.Widget.Button">
@@ -296,9 +311,9 @@
         <item name="android:minHeight">48dip</item>
     </style>
 
-	<!--  TODO not sure if these next 3 are used -->
+    <!--  TODO not sure if these next 3 are used -->
 
-	<!-- Style you can use with a container (typically a horizontal
+    <!-- Style you can use with a container (typically a horizontal
          LinearLayout) to get the standard "button bar" background and
          spacing. @hide -->
     <style name="Holograham.ButtonBar">
@@ -348,20 +363,126 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-	<!-- TODO not sure if these two are used -->
+    <!-- TODO not sure if these two are used -->
     <style name="Holograham.Widget.TextSelectHandle">
-    	<!-- Inherited from parent -->
-    	<!-- TODO Private resource, defer import until we know if it's used in theme
-    	<item name="android:popupAnimationStyle">@android:style/Animation.TextSelectHandle</item>
-    	 -->
+        <!-- Inherited from parent -->
+        <!-- TODO Private resource, defer import until we know if it's used in theme
+        <item name="android:popupAnimationStyle">@android:style/Animation.TextSelectHandle</item>
+         -->
     </style>
 
     <style name="Holograham.Widget.TextSuggestionsPopupWindow">
-    	<!--  TODO defer importing these deps until we know if it's used in theme
-    	<item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <!--  TODO defer importing these deps until we know if it's used in theme
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
         <item name="android:popupBackground">@android:drawable/text_edit_suggestions_window</item>
         <item name="android:dropDownWidth">wrap_content</item>
          -->
     </style>
 
+    <style name="Holograham.Widget.AbsListView">
+        <!--  TODO Inherited from parent, deferred import. unused?
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_dark_opaque</item>
+         -->
+    </style>
+
+    <style name="Holograham.Widget.AutoCompleteTextView" parent="BaseHoloGraham.Widget.EditText">
+        <!--  TODO private resource, import?
+        <item name="android:completionHintView">@android:layout/simple_dropdown_hint</item>
+        -->
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownVerticalOffset">-6dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_dark</item>
+    </style>
+
+    <style name="Holograham.Widget.CompoundButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="Holograham.Widget.CompoundButton.CheckBox">
+        <!-- TODO inherited, deferred
+        <item name="android:background">@android:drawable/btn_check_label_background</item>
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+         -->
+    </style>
+
+    <!-- TODO have not imported parent yet, comes later in this file
+    <style name="Holograham.Widget.ListView.DropDown">
+    </style>
+    -->
+
+    <style name="Holograham.Widget.EditText" parent="BaseHoloGraham.Widget.EditText">
+    </style>
+
+    <style name="Holograham.Widget.ExpandableListView" parent="Holograham.Widget.ListView">
+        <item name="android:groupIndicator">@drawable/expander_group_holo_dark</item>
+        <item name="android:indicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:indicatorRight">?android:attr/expandableListPreferredItemIndicatorRight</item>
+        <item name="android:childDivider">?android:attr/listDivider</item>
+    </style>
+
+    <style name="Holograham.Widget.ExpandableListView.White">
+    </style>
+
+    <style name="Holograham.Widget.Gallery">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:spacing">-20dip</item>
+        <item name="android:unselectedAlpha">0.85</item>
+    </style>
+
+    <style name="Holograham.Widget.GestureOverlayView">
+        <item name="android:gestureStrokeWidth">12.0</item>
+        <item name="android:gestureColor">#ffffff00</item>
+        <item name="android:uncertainGestureColor">#48ffff00</item>
+        <item name="android:fadeOffset">420</item>
+        <item name="android:fadeDuration">150</item>
+        <item name="android:gestureStrokeLengthThreshold">50.0</item>
+        <item name="android:gestureStrokeSquarenessThreshold">0.275</item>
+        <item name="android:gestureStrokeAngleThreshold">40.0</item>
+        <item name="android:eventsInterceptionEnabled">true</item>
+    </style>
+
+    <style name="Holograham.WidgetGridView" parent="BaseHoloGraham.Widget.AbsListView">
+        <item name="android:listSelector">?android:attr/selectableItemBackground</item>
+    </style>
+    
+    <style name="Holograham.Widget.ImageButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+    </style>
+    
+    
+    <style name="Holograham.Widget.ActivityChooserView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/ab_share_pack_holo_dark</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6dip</item>
+    </style>
+
+    <style name="Holograham.Widget.ImageWell">
+        <!-- TODO defer import, inheritred
+        <item name="android:background">@android:drawable/panel_picture_frame_background</item>
+        -->
+    </style>
+
+    <style name="Holograham.Widget.ListView" parent="BaseHoloGraham.Widget.AbsListView">
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+    <style name="Holograham.Widget.ListView.White">
+    </style>
 </resources>
