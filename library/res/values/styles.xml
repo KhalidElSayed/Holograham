@@ -19,19 +19,19 @@
 
     <!-- Text Styles -->
     <style name="Holograham.TextAppearance" parent="Holograham.TextAppearance">
-    	<item name="android:textColor">?textColorPrimary</item>
-        <item name="android:textColorHighlight">?textColorHighlight</item>
-        <item name="android:textColorHint">?textColorHint</item>
-        <item name="android:textColorLink">?textColorLink</item>
+    	<item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorLink">?android:attr/textColorLink</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
     </style>
 
     <style name="Holograham.TextAppearance.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Large">
@@ -44,34 +44,34 @@
 
     <style name="Holograham.TextAppearance.Small" parent="Holograham.TextAppearance.Small">
     	<item name="android:textSize">14sp</item>
-        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
     <style name="Holograham.TextAppearance.Large.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Medium.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Small.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.SearchResult">
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">?textColorPrimary</item>
-        <item name="android:textColorHint">?textColorHint</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
     </style>
 
     <style name="Holograham.TextAppearance.SearchResult.Title">
@@ -80,7 +80,7 @@
 
     <style name="Holograham.TextAppearance.SearchResult.Subtitle">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
 	<style name="Holograham.TextAppearance.Widget" />
@@ -90,7 +90,7 @@
     </style>
 
     <style name="Holograham.TextAppearance.Widget.IconMenu.Item" parent="Holograham.TextAppearance.Small">
-        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
     <!-- This style is for smaller screens; values-xlarge defines a version
@@ -102,27 +102,27 @@
     </style>
     
     <style name="Holograham.TextAppearance.Widget.TextView">
-        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
-        <item name="android:textColorHint">?textColorHint</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
     </style>
 
     <style name="Holograham.TextAppearance.Widget.TextView.PopupMenu">
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
-        <item name="android:textColorHint">?textColorHint</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
     </style>
 
     <style name="Holograham.TextAppearance.Widget.DropDownHint">
-        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textSize">14sp</item>
     </style>
 
     <style name="Holograham.TextAppearance.Widget.DropDownItem">
-        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
     </style>
 
     <style name="Holograham.TextAppearance.Widget.TextView.SpinnerItem">
-        <item name="android:textColor">?textColorPrimaryDisableOnly</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
     </style>
 
     <style name="Holograham.TextAppearance.Widget.EditText">
@@ -131,7 +131,7 @@
     </style>
 
     <style name="Holograham.TextAppearance.Widget.PopupMenu">
-    	<item name="android:textColor">?textColorPrimary</item>
+    	<item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textColorHint">@color/hint_foreground_light</item>
         <item name="android:textColorHighlight">@color/highlighted_text_light</item>
         <item name="android:textColorLink">@color/link_text_light</item>
@@ -156,7 +156,7 @@
 
     <style name="Holograham.TextAppearance.DialogWindowTitle">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
     </style>
 
     <!-- Light text styles -->
@@ -164,10 +164,10 @@
     </style>
 
     <style name="Holograham.TextAppearance.Light.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.Large" parent="Holograham.TextAppearance.Large">
@@ -180,29 +180,29 @@
     </style>
  
    <style name="Holograham.TextAppearance.Light.Large.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.Medium.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.Small.Inverse">
-        <item name="android:textColor">?textColorPrimaryInverse</item>
-        <item name="android:textColorHint">?textColorHintInverse</item>
-        <item name="android:textColorHighlight">?textColorHighlightInverse</item>
-        <item name="android:textColorLink">?textColorLinkInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.SearchResult" parent="Holograham.TextAppearance.SearchResult">
-        <item name="android:textColor">?textColorPrimary</item>
-        <item name="android:textColorHint">?textColorHint</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.SearchResult.Title">
@@ -211,7 +211,7 @@
 
     <style name="Holograham.TextAppearance.Light.SearchResult.Subtitle">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
     <style name="Holograham.TextAppearance.Light.Widget">
@@ -248,4 +248,79 @@
         <item name="android:textColor">@color/holo_blue_light</item>
     </style>
 
+    <!-- Widget Styles -->
+
+    <style name="Holograham.Widget">
+    	<item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <style name="Holograham.Widget.Button">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/primary_text_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="Holograham.Widget.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+    
+    <style name="Holograham.Widget.Button.Borderless.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Holograham.Widget.Button.Small">
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/primary_text_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <style name="Holograham.Widget.Button.Inset">
+        <item name="android:background">@drawable/button_inset</item>
+    </style>
+
+    <style name="Holograham.Widget.Button.Toggle">
+        <item name="android:background">@drawable/btn_toggle_holo_dark</item>
+        <item name="android:textOn">@string/capital_on</item>
+        <item name="android:textOff">@string/capital_off</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:minHeight">48dip</item>
+    </style>
+
+	<!--  TODO not sure if these next 3 are used -->
+
+	<!-- Style you can use with a container (typically a horizontal
+         LinearLayout) to get the standard "button bar" background and
+         spacing. @hide -->
+    <style name="Holograham.ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Holograham.SegmentedButton">
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:background">@drawable/btn_group_holo_dark</item>
+    </style>
+
+    <style name="Holograham.ButtonBar.AlertDialog">
+        <item name="android:background">@null</item>
+        <item name="android:dividerPadding">0dp</item>
+    </style>
+    
 </resources>

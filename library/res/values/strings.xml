@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_on">ON</string>
+    <!-- Default text for a button that can be toggled on and off. -->
+    <string name="capital_off">OFF</string>
+</resources>
