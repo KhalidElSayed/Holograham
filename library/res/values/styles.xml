@@ -14,12 +14,14 @@
      limitations under the License.
 -->
 <resources>
-    <style name="BaseHoloGraham.Widget.AbsListView" parent="Holograham.Widget">
+	<style name="BaseHoloGraham.Widget" parent="Holograham.Widget" />
+
+    <style name="BaseHoloGraham.Widget.AbsListView">
         <item name="android:scrollbars">vertical</item>
         <item name="android:fadingEdge">vertical</item>
     </style>
     
-    <style name="BaseHoloGraham.Widget.EditText" parent="Holograham.Widget">
+    <style name="BaseHoloGraham.Widget.EditText">
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:clickable">true</item>
@@ -496,44 +498,58 @@
     <style name="Holograham.Widget.ListView.White">
     </style>
 
-    <style name="Widget.Holo.PopupWindow" parent="Widget.PopupWindow">
+    <style name="Holograham.Widget.PopupWindow">
+    	<!-- TODO Animation DeferredImport ParentImported
+    	<item name="android:popupBackground">@android:drawable/editbox_dropdown_background_dark</item>
+        <item name="android:popupAnimationStyle">@android:style/Animation.PopupWindow</item>
+         -->
     </style>
 
-    <style name="Widget.Holo.PopupWindow.ActionMode">
+    <style name="Holograham.Widget.PopupWindow.ActionMode">
         <item name="android:popupBackground">@android:color/black</item>
         <!-- TODO Animation
         <item name="android:popupAnimationStyle">@android:style/Animation.PopupWindow.ActionMode</item>
          -->
     </style>
 
-    <style name="Widget.Holo.ProgressBar" parent="BaseHoloGraham.Widget.ProgressBar"">
+    <style name="Holograham.Widget.ProgressBar" parent="BaseHoloGraham.Widget.ProgressBar">
         <item name="android:indeterminateDrawable">@drawable/progress_medium_holo</item>
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Horizontal" parent="Widget.ProgressBar.Horizontal">
+    <style name="Holograham.Widget.ProgressBar.Horizontal" parent="BaseHoloGraham.Widget.ProgressBar">
+    	<item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
         <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo</item>
         <item name="android:minHeight">16dip</item>
         <item name="android:maxHeight">16dip</item>
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Small" parent="Widget.ProgressBar.Small">
-        <item name="android:indeterminateDrawable">@android:drawable/progress_small_holo</item>
+    <style name="Holograham.Widget.ProgressBar.Small" parent="BaseHoloGraham.Widget.ProgressBar">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_small_holo</item>
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Small.Title">
+    <style name="Holograham.Widget.ProgressBar.Small.Title">
+        <!--  <item name="android:indeterminateDrawable">@drawable/progress_small_titlebar</item>  -->
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Large" parent="Widget.ProgressBar.Large">
-        <item name="android:indeterminateDrawable">@android:drawable/progress_large_holo</item>
+    <style name="Holograham.Widget.ProgressBar.Large" parent="BaseHoloGraham.Widget.ProgressBar">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_large_holo</item>
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Inverse">
+    <style name="Holograham.Widget.ProgressBar.Inverse">
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Small.Inverse">
+    <style name="Holograham.Widget.ProgressBar.Small.Inverse">
     </style>
 
-    <style name="Widget.Holo.ProgressBar.Large.Inverse">
+    <style name="Holograham.Widget.ProgressBar.Large.Inverse">
     </style>
 </resources>
