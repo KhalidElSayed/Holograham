@@ -565,4 +565,31 @@
         <item name="android:paddingLeft">16dip</item>
         <item name="android:paddingRight">16dip</item>
     </style>
+
+    <style name="Holograham.Widget.RatingBar">
+    	<item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">57dip</item>
+        <item name="android:maxHeight">57dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_full_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_dark</item>
+    </style>
+
+    <style name="Holograham.Widget.RatingBar.Indicator">
+    	<item name="android:indeterminateOnly">false</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:progressDrawable">@drawable/ratingbar_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_dark</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+
+    <style name="Holograham.Widget.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
 </resources>
